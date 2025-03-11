@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel Functions</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="excel.html">Excel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Excel Functions</h2>
+
+        <label for="numbers">Enter numbers separated by spaces:</label>
+        <input type="text" id="numbers">
+
+        <p>Select a function:</p>
+        <label><input type="radio" name="operation" id="sum" checked> AutoSum</label>
+        <label><input type="radio" name="operation" id="avg"> Average</label>
+        <label><input type="radio" name="operation" id="max"> Maximum</label>
+        <label><input type="radio" name="operation" id="min"> Minimum</label>
+
+        <button id="calculateBtn">Calculate</button>
+
+        <h3>Result: <span id="result">-</span></h3>
+    </main>
+
+    <footer>
+        <p>Georgian @ ILAC - HTML, CSS, and JavaScript Assignment#3</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
